@@ -3,6 +3,7 @@
 </script>
 
 <main>
+    <h1>Test</h1>
     <LoginForm />
 </main>
 
