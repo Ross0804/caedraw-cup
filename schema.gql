@@ -1,0 +1,4 @@
+type House {
+    name: String!
+    points: Int!
+}
