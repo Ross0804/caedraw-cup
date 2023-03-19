@@ -1,5 +1,5 @@
 <script>
-    import {createClient, setContextClient, queryStore, gql, getContextClient} from '@urql/svelte'
+    import {createClient, setContextClient, queryStore, gql, getContextClient} from 'urql/svelte'
 
     const client = createClient({
         url: 'https://graphql.fauna.com/graphql',
