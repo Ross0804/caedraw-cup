@@ -2,3 +2,7 @@ type House {
     name: String!
     points: Int!
 }
+
+type Query {
+    allHouses: [House!]
+}
