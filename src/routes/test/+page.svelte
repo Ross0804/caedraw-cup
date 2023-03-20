@@ -4,12 +4,12 @@
     const housePoints = queryStore({
         client: getContextClient(),
         query: gql `
-        query HouseByID{
-            findHouseByID(id: "359636213925151321") {
-                name
-                points
+            query HouseByID{
+                findHouseByID(id: "359636213925151321") {
+                    name
+                    points
+                }
             }
-        }
         `
     })
 </script>

@@ -1,6 +1,5 @@
 <script>
     export let house
-    export let color
     import { housePoints } from "../stores";
 </script>
 

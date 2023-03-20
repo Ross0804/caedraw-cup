@@ -9,10 +9,6 @@
         { name: 'tydfil', color: 'blue'},
         { name: 'glyndwr', color: 'yellow'},
     ]
-
-    houses.forEach(house => {
-        console.log(house)
-    });
 </script>
 
 <main>
@@ -73,7 +69,6 @@
         }
     }
     div {
-        border: 1px solid #fff;
         background-color: rgba(0, 0, 0, 0.4);
         padding: 1rem;
     }
